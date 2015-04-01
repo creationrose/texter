@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://ACb762e8fa9bd752333b26385272bc8780:f968058441cf061d883c7222f01df9d5@api.twilio.com/2010-04-01/Accounts/ACb762e8fa9bd752333b26385272bc8780/SMS/Messages.json
+    body:
+      encoding: US-ASCII
+      string: Body=hi&To=1234567&From=16466797271
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '35'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: BAD REQUEST
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 01 Apr 2015 21:47:41 GMT
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '154'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"code": 21211, "message": "The ''To'' number 1234567 is not a valid
+        phone number.", "more_info": "https://www.twilio.com/docs/errors/21211", "status":
+        400}'
+    http_version: 
+  recorded_at: Wed, 01 Apr 2015 21:47:41 GMT
+recorded_with: VCR 2.9.3

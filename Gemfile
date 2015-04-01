@@ -14,4 +14,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem "dotenv-rails"
   gem "rspec-rails"
+  gem "vcr"
+  gem "webmock"
 end
+
+# group :test do
+#   gem "vcr"
+#   gem "webmock"
+# end
