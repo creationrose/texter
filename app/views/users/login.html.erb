@@ -1,2 +1,7 @@
 <%= image_tag @user['picture']['data']['url'].to_s %>
 <%= @user['name'] %>
+
+<br />
+<div>
+<%= link_to "Send new message", new_message_path %>
+</div>

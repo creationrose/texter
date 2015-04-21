@@ -16,11 +16,11 @@ gem "koala", "~> 1.10.0rc"
 group :development, :test do
   gem "dotenv-rails"
   gem "rspec-rails"
-  gem "vcr"
-  gem "webmock"
 end
 
 group :test do
   gem "shoulda-matchers"
   gem "capybara"
+  gem "vcr"
+  gem "webmock"
 end

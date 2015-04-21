@@ -1,3 +1,3 @@
-class InboundTextController < ApplicationController
+# class InboundTextController < ApplicationController
 
-end
+# end
