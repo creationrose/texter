@@ -1,0 +1,3 @@
+class InboundTextController < ApplicationController
+
+end
